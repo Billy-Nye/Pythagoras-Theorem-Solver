@@ -1,4 +1,4 @@
-import numpy
+import math
 print ("Pythagoras Theorem solver for different sides of the triangle \n")
 
 def Pythagoras():
@@ -7,10 +7,10 @@ def Pythagoras():
     if choice == "1":
         num1 = float(input("Enter the first number: "))
         num2 = float(input("Enter the second number: "))
-        square1 = numpy.square(num1)
-        square2 = numpy.square(num2)
+        square1 = math.pow(num1, 2)
+        square2 = math.pow(num2, 2)
         add = square1 + square2
-        answer1 = numpy.sqrt(add)
+        answer1 = math.sqrt(add)
         print (answer1)
         restart = input("Do you wanna do another question? \ny = Yes \nn = No\nAnswer: ")
         if restart == "y":
@@ -25,10 +25,10 @@ def Pythagoras():
     elif choice == "2":
         numhigh = float(input("Enter the highest number of the two: "))
         numlow = float(input("Enter the lowest number of the two: "))
-        square3 = numpy.square(numhigh)
-        square4 = numpy.square(numlow)
+        square3 = math.pow(numhigh, 2)
+        square4 = math.pow(numlow, 2)
         sub = square3 - square4
-        answer2 = numpy.sqrt(sub)
+        answer2 = math.sqrt(sub)
         print (answer2)
         restart = input("Do you wanna do another question? \ny = Yes \nn = No\nAnswer: ")
         if restart == "y":
@@ -38,3 +38,5 @@ def Pythagoras():
 
 
 Pythagoras()
+
+
