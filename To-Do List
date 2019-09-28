@@ -1,5 +1,6 @@
 To-Do List
 
-- Change from NumPy to in-built python
-- Create a way to show working out: 
+- Change from NumPy to in-built python ✔
+- Create a way to show working out: ✔
   input an answer as to whether or not they want it to show the working out.
+- Figure out a way to round to X amount of significant figures
