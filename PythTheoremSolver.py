@@ -36,10 +36,6 @@ def Pythagoras():
             elif restart == "2":
                 print ("Okay")
 
-
-
-
-
     elif choice == "2":
         numhigh = float(input("Enter the highest number of the two: "))
         numlow = float(input("Enter the lowest number of the two: "))
